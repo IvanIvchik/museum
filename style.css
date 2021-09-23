@@ -1,0 +1,62 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+div,
+article,
+section,
+nav,
+img,
+header,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: Roboto;
+}
+
+.header {
+  background-color: #030303;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+#main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+#main-menu ul {
+  width: 755px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link a {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 100;
+}
