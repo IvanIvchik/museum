@@ -30,7 +30,17 @@ a {
 }
 
 html {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 80px;
+    font-family: "Forum", cursive;
+    font-weight: 100;
+    letter-spacing: 5px;
 }
 
 .header {
@@ -61,20 +71,115 @@ html {
     font-weight: 100;
 }
 
+.menu-link a:hover {
+    color: #9d8665;
+}
+
+.menu-link a:active {
+    color: #7e6c51;
+}
+
 #Welcome {
     background-color: #030303;
+}
+
+#Welcome .container {
     height: 810px;
+    background-image: url(./assets/1.jpg);
+    background-position: calc(100% - 20px) calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .greetings {
     height: 388px;
     width: 598px;
-    z-index: 2;
+    position: relative;
+    left: 0;
+    top: 211px;
 }
 
 .greetings h1,
-.greetings h3,
+.greetings h4,
 .greetings a {
     color: #ffffff;
+}
+
+.greetings h1 {
+    padding-bottom: 48px;
+}
+
+.greetings h4,
+.greetings a {
     font-weight: 100;
+}
+
+.greetings h4 {
+    font-size: 28px;
+    padding-bottom: 82px;
+}
+
+.greetings a:link,
+.greetings a:visited {
+    font-size: 22px;
+    background-color: #710707;
+    color: white;
+    padding: 26px 91px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.greetings a:hover,
+.greetings a:active {
+    background-color: #9d8665;
+}
+
+#Visiting {
+    padding: 30px 0;
+}
+
+#Visiting h2 {
+    color: #9D8665;
+    border-bottom: 3px solid #710707;
+    padding: 35px 0;
+}
+
+#visiting-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tour-link {
+    height: 420px;
+    width: 440px;
+    padding-top: 75px;
+}
+
+.tour-link h3 {
+    font-size: 32px;
+    letter-spacing: 5px;
+    padding: 30px 0 20px;
+    color: #000000;
+}
+
+.tour-link h4,
+.tour-link p {
+    font-weight: 300;
+    padding-top: 15px;
+    color: #505050;
+}
+
+.tour-link h4 {
+    font-size: 22px;
+}
+
+.tour-link p {
+    font-size: 18px;
+}
+
+.tour-descriptiop {
+    border-top: 2px solid #710707;
+    width: 300px;
 }
