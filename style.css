@@ -13,50 +13,68 @@ nav,
 img,
 header,
 a {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 li {
-  display: inline-block;
+    display: inline-block;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 html {
-  font-family: Roboto;
+    font-family: Roboto;
 }
 
 .header {
-  background-color: #030303;
+    background-color: #030303;
 }
 
 .container {
-  width: 1440px;
-  margin: 0 auto;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 #main-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
 }
 
 #main-menu ul {
-  width: 755px;
-  display: flex;
-  justify-content: space-between;
+    width: 755px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-link a {
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 100;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#Welcome {
+    background-color: #030303;
+    height: 810px;
+}
+
+.greetings {
+    height: 388px;
+    width: 598px;
+    z-index: 2;
+}
+
+.greetings h1,
+.greetings h3,
+.greetings a {
+    color: #ffffff;
+    font-weight: 100;
 }
